@@ -44,7 +44,7 @@ f: 011011011110;
 
 Create a Verilog (the *case* portion) file from blocks_rom.png with 4 bit red, 4 bit green, 4 bit blue
 ```bash
-$./src/Png2ROM.py -i doc/png/blocks_rom.png -o doc/verilog/blocks_rom.v -f verilog -b 444
+python ./src/Png2ROM.py -i doc/png/background_ghost_rom.png -o doc/verilog/background_ghost_rom.v -f verilog -b 565
 ```
 Output *blocks_rom.v* (partial preview):
 ```
